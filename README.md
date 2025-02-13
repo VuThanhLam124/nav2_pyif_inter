@@ -1,10 +1,10 @@
 # nav2_pyif_inter
 
-# Introduction
+Introduction
 
 This project integrates SICNav (Safe Interactive Crowd Navigation) with NAV2 using Nav2_PYIF. The goal is to enable reinforcement learning-based navigation for the TurtleBot3 robot in a Gazebo simulation.
 
-# Installation (My repository is at step 5 now)
+Installation (My repository is at step 5 now)
 # 1. Clone the Required Repositories
 cd ~/nav2_pyif_ws/src
 git clone https://github.com/sepsamavi/safe-interactive-crowdnav.git
