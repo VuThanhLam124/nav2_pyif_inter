@@ -1,0 +1,459 @@
+[0.059s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.060s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74b4ec5174f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74b4ec6b0940>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74b4ec6b0940>>)
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.203s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.203s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/nav2_pyif_ws'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.203s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(python_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(python_controller) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(python_controller) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(python_controller) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(python_controller) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(python_controller) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(python_controller) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(python_controller) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(python_controller) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(python_controller) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(python_controller) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(python_controller) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(python_controller) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(python_controller) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/Python-RVO2) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/Python-RVO2) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/Python-RVO2) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/Python-RVO2) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/Python-RVO2) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/Python-RVO2) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/Python-RVO2) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/Python-RVO2) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/Python-RVO2) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/Python-RVO2) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/Python-RVO2) by extension 'cmake'
+[0.221s] Level 1:colcon.colcon_core.package_identification:_identify(src/Python-RVO2) by extension 'python'
+[0.222s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Python-RVO2' with type 'cmake' and name 'RVO'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif) by extension 'ros'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif) by extensions ['cmake', 'python']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif) by extension 'cmake'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif) by extension 'python'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif) by extensions ['python_setup_py']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif) by extension 'python_setup_py'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/apf_python_example) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/apf_python_example) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/apf_python_example) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/apf_python_example) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/apf_python_example) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/apf_python_example) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/apf_python_example) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/apf_python_example) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/apf_python_example) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_pyif/apf_python_example' with type 'ros.ament_python' and name 'apf_python_example'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_pyif/nav2_pyif' with type 'ros.ament_cmake' and name 'nav2_pyif'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif_controller) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif_controller) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif_controller) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif_controller) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif_controller) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif_controller) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif_controller) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/nav2_pyif_controller) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_pyif/nav2_pyif_controller' with type 'ros.ament_cmake' and name 'nav2_pyif_controller'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/sicnav_python_example) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/sicnav_python_example) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/sicnav_python_example) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/sicnav_python_example) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/sicnav_python_example) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/sicnav_python_example) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/sicnav_python_example) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/sicnav_python_example) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/sicnav_python_example) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/sicnav_python_example) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/sicnav_python_example) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/sicnav_python_example) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/sicnav_python_example) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/nav2_pyif/sicnav_python_example) by extension 'python_setup_py'
+[0.442s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nav2_pyif/sicnav_python_example' with type 'python' and name 'sicnav_python_example'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/safe-interactive-crowdnav) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/safe-interactive-crowdnav) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/safe-interactive-crowdnav) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/safe-interactive-crowdnav) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/safe-interactive-crowdnav) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/safe-interactive-crowdnav) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/safe-interactive-crowdnav) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/safe-interactive-crowdnav) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/safe-interactive-crowdnav) by extension 'ros'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/safe-interactive-crowdnav) by extensions ['cmake', 'python']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/safe-interactive-crowdnav) by extension 'cmake'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/safe-interactive-crowdnav) by extension 'python'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/safe-interactive-crowdnav) by extensions ['python_setup_py']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/safe-interactive-crowdnav) by extension 'python_setup_py'
+[0.656s] DEBUG:colcon.colcon_core.package_identification:Package 'src/safe-interactive-crowdnav' with type 'python' and name 'si_crowd_nav'
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.656s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.669s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.669s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.670s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/ubuntu/nav2_pyif_ws/install
+[0.671s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 338 installed packages in /opt/ros/humble
+[0.672s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'RVO' build argument 'cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'RVO' build argument 'cmake_target' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'RVO' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'RVO' build argument 'cmake_clean_cache' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'RVO' build argument 'cmake_clean_first' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'RVO' build argument 'cmake_force_configure' from command line to 'False'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'RVO' build argument 'ament_cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'RVO' build argument 'catkin_cmake_args' from command line to 'None'
+[0.692s] Level 5:colcon.colcon_core.verb:set package 'RVO' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.692s] DEBUG:colcon.colcon_core.verb:Building package 'RVO' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/nav2_pyif_ws/build/RVO', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/nav2_pyif_ws/install/RVO', 'merge_install': False, 'path': '/home/ubuntu/nav2_pyif_ws/src/Python-RVO2', 'symlink_install': True, 'test_result_base': None}
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'apf_python_example' build argument 'cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'apf_python_example' build argument 'cmake_target' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'apf_python_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'apf_python_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'apf_python_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'apf_python_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'apf_python_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'apf_python_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'apf_python_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.693s] DEBUG:colcon.colcon_core.verb:Building package 'apf_python_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/nav2_pyif_ws/build/apf_python_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/nav2_pyif_ws/install/apf_python_example', 'merge_install': False, 'path': '/home/ubuntu/nav2_pyif_ws/src/nav2_pyif/apf_python_example', 'symlink_install': True, 'test_result_base': None}
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif' build argument 'cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif' build argument 'cmake_target' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif' build argument 'cmake_clean_cache' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif' build argument 'cmake_clean_first' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif' build argument 'cmake_force_configure' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif' build argument 'ament_cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif' build argument 'catkin_cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.693s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_pyif' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/nav2_pyif_ws/build/nav2_pyif', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif', 'merge_install': False, 'path': '/home/ubuntu/nav2_pyif_ws/src/nav2_pyif/nav2_pyif', 'symlink_install': True, 'test_result_base': None}
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'si_crowd_nav' build argument 'cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'si_crowd_nav' build argument 'cmake_target' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'si_crowd_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'si_crowd_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'si_crowd_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'si_crowd_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'si_crowd_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'si_crowd_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'si_crowd_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.693s] DEBUG:colcon.colcon_core.verb:Building package 'si_crowd_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/nav2_pyif_ws/build/si_crowd_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav', 'merge_install': False, 'path': '/home/ubuntu/nav2_pyif_ws/src/safe-interactive-crowdnav', 'symlink_install': True, 'test_result_base': None}
+[0.693s] Level 5:colcon.colcon_core.verb:set package 'sicnav_python_example' build argument 'cmake_args' from command line to 'None'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'sicnav_python_example' build argument 'cmake_target' from command line to 'None'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'sicnav_python_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'sicnav_python_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'sicnav_python_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'sicnav_python_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'sicnav_python_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'sicnav_python_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'sicnav_python_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.694s] DEBUG:colcon.colcon_core.verb:Building package 'sicnav_python_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/nav2_pyif_ws/build/sicnav_python_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example', 'merge_install': False, 'path': '/home/ubuntu/nav2_pyif_ws/src/nav2_pyif/sicnav_python_example', 'symlink_install': True, 'test_result_base': None}
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif_controller' build argument 'cmake_args' from command line to 'None'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif_controller' build argument 'cmake_target' from command line to 'None'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.694s] Level 5:colcon.colcon_core.verb:set package 'nav2_pyif_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.694s] DEBUG:colcon.colcon_core.verb:Building package 'nav2_pyif_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller', 'merge_install': False, 'path': '/home/ubuntu/nav2_pyif_ws/src/nav2_pyif/nav2_pyif_controller', 'symlink_install': True, 'test_result_base': None}
+[0.694s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.695s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.695s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/nav2_pyif_ws/src/nav2_pyif/nav2_pyif' with build type 'ament_cmake'
+[0.695s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/nav2_pyif_ws/src/nav2_pyif/nav2_pyif'
+[0.696s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.696s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.696s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.699s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/nav2_pyif_ws/src/Python-RVO2'
+[0.699s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.699s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.700s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/nav2_pyif_ws/src/nav2_pyif/apf_python_example' with build type 'ament_python'
+[0.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('apf_python_example', 'ament_prefix_path')
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/apf_python_example/share/apf_python_example/hook/ament_prefix_path.ps1'
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/nav2_pyif_ws/install/apf_python_example/share/apf_python_example/hook/ament_prefix_path.dsv'
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/apf_python_example/share/apf_python_example/hook/ament_prefix_path.sh'
+[0.702s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.702s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.703s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/nav2_pyif_ws/src/safe-interactive-crowdnav'
+[0.703s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.703s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.705s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/nav2_pyif_ws/src/nav2_pyif/sicnav_python_example'
+[0.705s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.705s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.711s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/nav2_pyif_ws/build/nav2_pyif': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nav2_pyif_ws/install/apf_python_example:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/nav2_pyif_ws/build/nav2_pyif -- -j16 -l16
+[0.713s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/nav2_pyif_ws/build/RVO': /usr/bin/cmake --build /home/ubuntu/nav2_pyif_ws/build/RVO -- -j16 -l16
+[0.940s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/nav2_pyif_ws/src/nav2_pyif/apf_python_example'
+[0.940s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.940s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.398s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/nav2_pyif_ws/build/nav2_pyif' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nav2_pyif_ws/install/apf_python_example:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/nav2_pyif_ws/build/nav2_pyif -- -j16 -l16
+[1.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/nav2_pyif_ws/build/nav2_pyif': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nav2_pyif_ws/install/apf_python_example:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/nav2_pyif_ws/build/nav2_pyif
+[1.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/nav2_pyif_ws/build/RVO' returned '0': /usr/bin/cmake --build /home/ubuntu/nav2_pyif_ws/build/RVO -- -j16 -l16
+[1.409s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/nav2_pyif_ws/build/RVO': /usr/bin/cmake --install /home/ubuntu/nav2_pyif_ws/build/RVO
+[1.417s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(RVO)
+[1.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/nav2_pyif_ws/build/RVO' returned '0': /usr/bin/cmake --install /home/ubuntu/nav2_pyif_ws/build/RVO
+[1.420s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/RVO' for CMake module files
+[1.420s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/RVO' for CMake config files
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/RVO/lib'
+[1.421s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/RVO/bin'
+[1.421s] Level 1:colcon.colcon_core.shell:create_environment_hook('RVO', 'path')
+[1.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/RVO/share/RVO/hook/path.ps1'
+[1.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/nav2_pyif_ws/install/RVO/share/RVO/hook/path.dsv'
+[1.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/RVO/share/RVO/hook/path.sh'
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/RVO/lib/pkgconfig/RVO.pc'
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/RVO/lib/python3.10/site-packages'
+[1.422s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/RVO/bin'
+[1.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('RVO', 'pythonscriptspath')
+[1.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/RVO/share/RVO/hook/pythonscriptspath.ps1'
+[1.422s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/nav2_pyif_ws/install/RVO/share/RVO/hook/pythonscriptspath.dsv'
+[1.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/RVO/share/RVO/hook/pythonscriptspath.sh'
+[1.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/RVO/share/RVO/package.ps1'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/nav2_pyif_ws/install/RVO/share/RVO/package.dsv'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/RVO/share/RVO/package.sh'
+[1.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/RVO/share/RVO/package.bash'
+[1.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/RVO/share/RVO/package.zsh'
+[1.427s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/nav2_pyif_ws/install/RVO/share/colcon-core/packages/RVO)
+[1.428s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_pyif)
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif' for CMake module files
+[1.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/nav2_pyif_ws/build/nav2_pyif' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/nav2_pyif_ws/install/apf_python_example:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/nav2_pyif_ws/build/nav2_pyif
+[1.429s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif' for CMake config files
+[1.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_pyif', 'cmake_prefix_path')
+[1.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/hook/cmake_prefix_path.ps1'
+[1.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/hook/cmake_prefix_path.dsv'
+[1.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/hook/cmake_prefix_path.sh'
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/lib'
+[1.430s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_pyif', 'ld_library_path_lib')
+[1.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/hook/ld_library_path_lib.ps1'
+[1.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/hook/ld_library_path_lib.dsv'
+[1.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/hook/ld_library_path_lib.sh'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/bin'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/lib/pkgconfig/nav2_pyif.pc'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/lib/python3.10/site-packages'
+[1.431s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/bin'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/package.ps1'
+[1.431s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/package.dsv'
+[1.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/package.sh'
+[1.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/package.bash'
+[1.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/package.zsh'
+[1.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/colcon-core/packages/nav2_pyif)
+[1.432s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_pyif)
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif' for CMake module files
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif' for CMake config files
+[1.433s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_pyif', 'cmake_prefix_path')
+[1.433s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/hook/cmake_prefix_path.ps1'
+[1.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/hook/cmake_prefix_path.dsv'
+[1.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/hook/cmake_prefix_path.sh'
+[1.434s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/lib'
+[1.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_pyif', 'ld_library_path_lib')
+[1.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/hook/ld_library_path_lib.ps1'
+[1.435s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/hook/ld_library_path_lib.dsv'
+[1.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/hook/ld_library_path_lib.sh'
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/bin'
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/lib/pkgconfig/nav2_pyif.pc'
+[1.435s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/lib/python3.10/site-packages'
+[1.436s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/bin'
+[1.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/package.ps1'
+[1.436s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/package.dsv'
+[1.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/package.sh'
+[1.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/package.bash'
+[1.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/package.zsh'
+[1.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/colcon-core/packages/nav2_pyif)
+[1.437s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/nav2_pyif_ws/src/nav2_pyif/nav2_pyif_controller' with build type 'ament_cmake'
+[1.438s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/nav2_pyif_ws/src/nav2_pyif/nav2_pyif_controller'
+[1.438s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.438s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller': CMAKE_PREFIX_PATH=/home/ubuntu/nav2_pyif_ws/install/nav2_pyif:/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller:/home/ubuntu/nav2_pyif_ws/install/apf_python_example:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/lib:/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller -- -j16 -l16
+[1.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/nav2_pyif_ws/install/nav2_pyif:/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller:/home/ubuntu/nav2_pyif_ws/install/apf_python_example:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/lib:/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller -- -j16 -l16
+[1.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller': CMAKE_PREFIX_PATH=/home/ubuntu/nav2_pyif_ws/install/nav2_pyif:/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller:/home/ubuntu/nav2_pyif_ws/install/apf_python_example:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/lib:/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller
+[1.524s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_pyif_controller)
+[1.524s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller' for CMake module files
+[1.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/nav2_pyif_ws/install/nav2_pyif:/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller:/home/ubuntu/nav2_pyif_ws/install/apf_python_example:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/lib:/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller
+[1.525s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller' for CMake config files
+[1.525s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_pyif_controller', 'cmake_prefix_path')
+[1.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/hook/cmake_prefix_path.ps1'
+[1.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/hook/cmake_prefix_path.dsv'
+[1.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/hook/cmake_prefix_path.sh'
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/lib'
+[1.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_pyif_controller', 'ld_library_path_lib')
+[1.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/hook/ld_library_path_lib.ps1'
+[1.527s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/hook/ld_library_path_lib.dsv'
+[1.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/hook/ld_library_path_lib.sh'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/bin'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/lib/pkgconfig/nav2_pyif_controller.pc'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/lib/python3.10/site-packages'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/bin'
+[1.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/package.ps1'
+[1.528s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/package.dsv'
+[1.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/package.sh'
+[1.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/package.bash'
+[1.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/package.zsh'
+[1.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/colcon-core/packages/nav2_pyif_controller)
+[1.529s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nav2_pyif_controller)
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller' for CMake module files
+[1.529s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller' for CMake config files
+[1.529s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_pyif_controller', 'cmake_prefix_path')
+[1.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/hook/cmake_prefix_path.ps1'
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/hook/cmake_prefix_path.dsv'
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/hook/cmake_prefix_path.sh'
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/lib'
+[1.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('nav2_pyif_controller', 'ld_library_path_lib')
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/hook/ld_library_path_lib.ps1'
+[1.530s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/hook/ld_library_path_lib.dsv'
+[1.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/hook/ld_library_path_lib.sh'
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/bin'
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/lib/pkgconfig/nav2_pyif_controller.pc'
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/lib/python3.10/site-packages'
+[1.531s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/bin'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/package.ps1'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/package.dsv'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/package.sh'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/package.bash'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/package.zsh'
+[1.532s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/colcon-core/packages/nav2_pyif_controller)
+[1.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/nav2_pyif_ws/build/si_crowd_nav': PYTHONPATH=/home/ubuntu/nav2_pyif_ws/build/si_crowd_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/nav2_pyif_ws/build/si_crowd_nav/build --no-deps
+[1.811s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/nav2_pyif_ws/build/apf_python_example': PYTHONPATH=/home/ubuntu/nav2_pyif_ws/build/apf_python_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/nav2_pyif_ws/install/apf_python_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/nav2_pyif_ws/build/apf_python_example/build --no-deps symlink_data
+[1.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/nav2_pyif_ws/build/sicnav_python_example': PYTHONPATH=/home/ubuntu/nav2_pyif_ws/build/sicnav_python_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/nav2_pyif_ws/build/sicnav_python_example/build --no-deps
+[2.060s] Level 1:colcon.colcon_core.shell:create_environment_hook('si_crowd_nav', 'pythonpath_develop')
+[2.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/build/si_crowd_nav/share/si_crowd_nav/hook/pythonpath_develop.ps1'
+[2.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/nav2_pyif_ws/build/si_crowd_nav' returned '0': PYTHONPATH=/home/ubuntu/nav2_pyif_ws/build/si_crowd_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/nav2_pyif_ws/build/si_crowd_nav/build --no-deps
+[2.061s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/nav2_pyif_ws/build/si_crowd_nav/share/si_crowd_nav/hook/pythonpath_develop.dsv'
+[2.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/build/si_crowd_nav/share/si_crowd_nav/hook/pythonpath_develop.sh'
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav' for CMake module files
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav' for CMake config files
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav/lib'
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav/bin'
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav/lib/pkgconfig/si_crowd_nav.pc'
+[2.062s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav/lib/python3.10/site-packages'
+[2.062s] Level 1:colcon.colcon_core.shell:create_environment_hook('si_crowd_nav', 'pythonpath')
+[2.062s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav/share/si_crowd_nav/hook/pythonpath.ps1'
+[2.063s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav/share/si_crowd_nav/hook/pythonpath.dsv'
+[2.063s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav/share/si_crowd_nav/hook/pythonpath.sh'
+[2.063s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav/bin'
+[2.063s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(si_crowd_nav)
+[2.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav/share/si_crowd_nav/package.ps1'
+[2.064s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav/share/si_crowd_nav/package.dsv'
+[2.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav/share/si_crowd_nav/package.sh'
+[2.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav/share/si_crowd_nav/package.bash'
+[2.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav/share/si_crowd_nav/package.zsh'
+[2.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/nav2_pyif_ws/install/si_crowd_nav/share/colcon-core/packages/si_crowd_nav)
+[2.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('apf_python_example', 'pythonpath_develop')
+[2.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/build/apf_python_example/share/apf_python_example/hook/pythonpath_develop.ps1'
+[2.298s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/nav2_pyif_ws/build/apf_python_example' returned '0': PYTHONPATH=/home/ubuntu/nav2_pyif_ws/build/apf_python_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/nav2_pyif_ws/install/apf_python_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/nav2_pyif_ws/build/apf_python_example/build --no-deps symlink_data
+[2.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/nav2_pyif_ws/build/apf_python_example/share/apf_python_example/hook/pythonpath_develop.dsv'
+[2.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/build/apf_python_example/share/apf_python_example/hook/pythonpath_develop.sh'
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/apf_python_example' for CMake module files
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/apf_python_example' for CMake config files
+[2.300s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/apf_python_example/lib'
+[2.300s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/apf_python_example/bin'
+[2.300s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/apf_python_example/lib/pkgconfig/apf_python_example.pc'
+[2.300s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/apf_python_example/lib/python3.10/site-packages'
+[2.300s] Level 1:colcon.colcon_core.shell:create_environment_hook('apf_python_example', 'pythonpath')
+[2.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/apf_python_example/share/apf_python_example/hook/pythonpath.ps1'
+[2.300s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/nav2_pyif_ws/install/apf_python_example/share/apf_python_example/hook/pythonpath.dsv'
+[2.300s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/apf_python_example/share/apf_python_example/hook/pythonpath.sh'
+[2.301s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/apf_python_example/bin'
+[2.301s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(apf_python_example)
+[2.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/apf_python_example/share/apf_python_example/package.ps1'
+[2.301s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/nav2_pyif_ws/install/apf_python_example/share/apf_python_example/package.dsv'
+[2.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/apf_python_example/share/apf_python_example/package.sh'
+[2.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/apf_python_example/share/apf_python_example/package.bash'
+[2.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/apf_python_example/share/apf_python_example/package.zsh'
+[2.303s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/nav2_pyif_ws/install/apf_python_example/share/colcon-core/packages/apf_python_example)
+[2.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('sicnav_python_example', 'pythonpath_develop')
+[2.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/build/sicnav_python_example/share/sicnav_python_example/hook/pythonpath_develop.ps1'
+[2.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/nav2_pyif_ws/build/sicnav_python_example' returned '0': PYTHONPATH=/home/ubuntu/nav2_pyif_ws/build/sicnav_python_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/nav2_pyif_ws/build/sicnav_python_example/build --no-deps
+[2.313s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/nav2_pyif_ws/build/sicnav_python_example/share/sicnav_python_example/hook/pythonpath_develop.dsv'
+[2.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/build/sicnav_python_example/share/sicnav_python_example/hook/pythonpath_develop.sh'
+[2.313s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example' for CMake module files
+[2.313s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example' for CMake config files
+[2.314s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/lib'
+[2.314s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/bin'
+[2.314s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/lib/pkgconfig/sicnav_python_example.pc'
+[2.314s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/lib/python3.10/site-packages'
+[2.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('sicnav_python_example', 'pythonpath')
+[2.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/share/sicnav_python_example/hook/pythonpath.ps1'
+[2.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/share/sicnav_python_example/hook/pythonpath.dsv'
+[2.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/share/sicnav_python_example/hook/pythonpath.sh'
+[2.315s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/bin'
+[2.315s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sicnav_python_example)
+[2.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/share/sicnav_python_example/package.ps1'
+[2.315s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/share/sicnav_python_example/package.dsv'
+[2.315s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/share/sicnav_python_example/package.sh'
+[2.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/share/sicnav_python_example/package.bash'
+[2.316s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/share/sicnav_python_example/package.zsh'
+[2.316s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/share/colcon-core/packages/sicnav_python_example)
+[2.316s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.316s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.316s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.316s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.321s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.321s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.321s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.330s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.330s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/nav2_pyif_ws/install/local_setup.ps1'
+[2.331s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/nav2_pyif_ws/install/_local_setup_util_ps1.py'
+[2.332s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/nav2_pyif_ws/install/setup.ps1'
+[2.332s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/nav2_pyif_ws/install/local_setup.sh'
+[2.332s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/nav2_pyif_ws/install/_local_setup_util_sh.py'
+[2.333s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/nav2_pyif_ws/install/setup.sh'
+[2.333s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/nav2_pyif_ws/install/local_setup.bash'
+[2.334s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/nav2_pyif_ws/install/setup.bash'
+[2.334s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/nav2_pyif_ws/install/local_setup.zsh'
+[2.334s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/nav2_pyif_ws/install/setup.zsh'

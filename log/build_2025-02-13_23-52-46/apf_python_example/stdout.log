@@ -1,0 +1,13 @@
+running develop
+running egg_info
+writing apf_python_example.egg-info/PKG-INFO
+writing dependency_links to apf_python_example.egg-info/dependency_links.txt
+writing requirements to apf_python_example.egg-info/requires.txt
+writing top-level names to apf_python_example.egg-info/top_level.txt
+reading manifest file 'apf_python_example.egg-info/SOURCES.txt'
+writing manifest file 'apf_python_example.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ubuntu/nav2_pyif_ws/install/apf_python_example/lib/python3.10/site-packages/apf-python-example.egg-link (link to .)
+
+Installed /home/ubuntu/nav2_pyif_ws/build/apf_python_example
+running symlink_data

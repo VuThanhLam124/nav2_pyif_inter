@@ -1,0 +1,16 @@
+[1.119s] Invoking command in '/home/ubuntu/nav2_pyif_ws/build/sicnav_python_example': PYTHONPATH=/home/ubuntu/nav2_pyif_ws/build/sicnav_python_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/nav2_pyif_ws/build/sicnav_python_example/build --no-deps
+[1.347s] running develop
+[1.485s] running egg_info
+[1.485s] creating sicnav_python_example.egg-info
+[1.493s] writing sicnav_python_example.egg-info/PKG-INFO
+[1.493s] writing dependency_links to sicnav_python_example.egg-info/dependency_links.txt
+[1.493s] writing requirements to sicnav_python_example.egg-info/requires.txt
+[1.493s] writing top-level names to sicnav_python_example.egg-info/top_level.txt
+[1.493s] writing manifest file 'sicnav_python_example.egg-info/SOURCES.txt'
+[1.501s] reading manifest file 'sicnav_python_example.egg-info/SOURCES.txt'
+[1.501s] writing manifest file 'sicnav_python_example.egg-info/SOURCES.txt'
+[1.530s] running build_ext
+[1.539s] Creating /home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/lib/python3.10/site-packages/sicnav-python-example.egg-link (link to .)
+[1.539s] 
+[1.539s] Installed /home/ubuntu/nav2_pyif_ws/build/sicnav_python_example
+[1.568s] Invoked command in '/home/ubuntu/nav2_pyif_ws/build/sicnav_python_example' returned '0': PYTHONPATH=/home/ubuntu/nav2_pyif_ws/build/sicnav_python_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/nav2_pyif_ws/install/sicnav_python_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/nav2_pyif_ws/build/sicnav_python_example/build --no-deps

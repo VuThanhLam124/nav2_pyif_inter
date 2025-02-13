@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-fff1cee31fece35ccc76.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "nav2_pyif_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "apf_test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-apf_test-Release-05149eac889fbc840b88.json",
+					"name" : "apf_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_pyif_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_pyif_controller-Release-19cc2c2d0020a71a5187.json",
+					"name" : "nav2_pyif_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_pyif_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_pyif_controller_uninstall-Release-cbea201dbab0f573048e.json",
+					"name" : "nav2_pyif_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-662f6e2aee339d906e8e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller",
+		"source" : "/home/ubuntu/nav2_pyif_ws/src/nav2_pyif/nav2_pyif_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

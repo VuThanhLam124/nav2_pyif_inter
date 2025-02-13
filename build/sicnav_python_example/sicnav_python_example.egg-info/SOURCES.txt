@@ -1,0 +1,7 @@
+setup.py
+sicnav_python_example.egg-info/PKG-INFO
+sicnav_python_example.egg-info/SOURCES.txt
+sicnav_python_example.egg-info/dependency_links.txt
+sicnav_python_example.egg-info/requires.txt
+sicnav_python_example.egg-info/top_level.txt
+sicnav_python_example.egg-info/zip-safe

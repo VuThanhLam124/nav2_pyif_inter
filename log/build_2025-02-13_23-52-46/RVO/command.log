@@ -1,0 +1,4 @@
+Invoking command in '/home/ubuntu/nav2_pyif_ws/build/RVO': /usr/bin/cmake --build /home/ubuntu/nav2_pyif_ws/build/RVO -- -j16 -l16
+Invoked command in '/home/ubuntu/nav2_pyif_ws/build/RVO' returned '0': /usr/bin/cmake --build /home/ubuntu/nav2_pyif_ws/build/RVO -- -j16 -l16
+Invoking command in '/home/ubuntu/nav2_pyif_ws/build/RVO': /usr/bin/cmake --install /home/ubuntu/nav2_pyif_ws/build/RVO
+Invoked command in '/home/ubuntu/nav2_pyif_ws/build/RVO' returned '0': /usr/bin/cmake --install /home/ubuntu/nav2_pyif_ws/build/RVO

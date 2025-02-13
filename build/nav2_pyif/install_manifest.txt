@@ -1,0 +1,3 @@
+/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/lib/libnav2_pyif.so
+/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/cmake/export_nav2_pyifExport.cmake
+/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/share/nav2_pyif/cmake/export_nav2_pyifExport-noconfig.cmake

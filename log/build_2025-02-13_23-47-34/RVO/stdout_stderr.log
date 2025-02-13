@@ -1,0 +1,12 @@
+[ 45%] Built target RVO
+[ 63%] Built target Roadmap
+[ 81%] Built target Blocks
+[100%] Built target Circle
+-- Install configuration: ""
+-- Up-to-date: /home/ubuntu/nav2_pyif_ws/install/RVO/include/RVO.h
+-- Up-to-date: /home/ubuntu/nav2_pyif_ws/install/RVO/include/RVOSimulator.h
+-- Up-to-date: /home/ubuntu/nav2_pyif_ws/install/RVO/include/Vector2.h
+-- Up-to-date: /home/ubuntu/nav2_pyif_ws/install/RVO/lib/libRVO.a
+-- Up-to-date: /home/ubuntu/nav2_pyif_ws/install/RVO/bin/Blocks
+-- Up-to-date: /home/ubuntu/nav2_pyif_ws/install/RVO/bin/Circle
+-- Up-to-date: /home/ubuntu/nav2_pyif_ws/install/RVO/bin/Roadmap

@@ -1,0 +1,16 @@
+[0.014s] Invoking command in '/home/ubuntu/nav2_pyif_ws/build/RVO': /usr/bin/cmake --build /home/ubuntu/nav2_pyif_ws/build/RVO -- -j16 -l16
+[0.474s] [ 45%] Built target RVO
+[0.474s] [ 63%] Built target Circle
+[0.474s] [100%] Built target Roadmap
+[0.474s] [100%] Built target Blocks
+[0.708s] Invoked command in '/home/ubuntu/nav2_pyif_ws/build/RVO' returned '0': /usr/bin/cmake --build /home/ubuntu/nav2_pyif_ws/build/RVO -- -j16 -l16
+[0.709s] Invoking command in '/home/ubuntu/nav2_pyif_ws/build/RVO': /usr/bin/cmake --install /home/ubuntu/nav2_pyif_ws/build/RVO
+[0.716s] -- Install configuration: ""
+[0.716s] -- Up-to-date: /home/ubuntu/nav2_pyif_ws/install/RVO/include/RVO.h
+[0.716s] -- Up-to-date: /home/ubuntu/nav2_pyif_ws/install/RVO/include/RVOSimulator.h
+[0.716s] -- Up-to-date: /home/ubuntu/nav2_pyif_ws/install/RVO/include/Vector2.h
+[0.716s] -- Up-to-date: /home/ubuntu/nav2_pyif_ws/install/RVO/lib/libRVO.a
+[0.717s] -- Up-to-date: /home/ubuntu/nav2_pyif_ws/install/RVO/bin/Blocks
+[0.717s] -- Up-to-date: /home/ubuntu/nav2_pyif_ws/install/RVO/bin/Circle
+[0.717s] -- Up-to-date: /home/ubuntu/nav2_pyif_ws/install/RVO/bin/Roadmap
+[0.718s] Invoked command in '/home/ubuntu/nav2_pyif_ws/build/RVO' returned '0': /usr/bin/cmake --install /home/ubuntu/nav2_pyif_ws/build/RVO

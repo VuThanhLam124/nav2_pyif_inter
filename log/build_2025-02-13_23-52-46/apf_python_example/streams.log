@@ -1,0 +1,15 @@
+[1.111s] Invoking command in '/home/ubuntu/nav2_pyif_ws/build/apf_python_example': PYTHONPATH=/home/ubuntu/nav2_pyif_ws/build/apf_python_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/nav2_pyif_ws/install/apf_python_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/nav2_pyif_ws/build/apf_python_example/build --no-deps symlink_data
+[1.360s] running develop
+[1.502s] running egg_info
+[1.511s] writing apf_python_example.egg-info/PKG-INFO
+[1.511s] writing dependency_links to apf_python_example.egg-info/dependency_links.txt
+[1.511s] writing requirements to apf_python_example.egg-info/requires.txt
+[1.511s] writing top-level names to apf_python_example.egg-info/top_level.txt
+[1.529s] reading manifest file 'apf_python_example.egg-info/SOURCES.txt'
+[1.529s] writing manifest file 'apf_python_example.egg-info/SOURCES.txt'
+[1.559s] running build_ext
+[1.559s] Creating /home/ubuntu/nav2_pyif_ws/install/apf_python_example/lib/python3.10/site-packages/apf-python-example.egg-link (link to .)
+[1.559s] 
+[1.559s] Installed /home/ubuntu/nav2_pyif_ws/build/apf_python_example
+[1.559s] running symlink_data
+[1.597s] Invoked command in '/home/ubuntu/nav2_pyif_ws/build/apf_python_example' returned '0': PYTHONPATH=/home/ubuntu/nav2_pyif_ws/build/apf_python_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/nav2_pyif_ws/install/apf_python_example/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ubuntu/nav2_pyif_ws/build/apf_python_example/build --no-deps symlink_data

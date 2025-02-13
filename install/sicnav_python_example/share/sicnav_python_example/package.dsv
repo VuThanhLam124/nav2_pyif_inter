@@ -1,0 +1,6 @@
+source;share/sicnav_python_example/hook/pythonpath.ps1
+source;share/sicnav_python_example/hook/pythonpath.dsv
+source;share/sicnav_python_example/hook/pythonpath.sh
+source;../../build/sicnav_python_example/share/sicnav_python_example/hook/pythonpath_develop.ps1
+source;../../build/sicnav_python_example/share/sicnav_python_example/hook/pythonpath_develop.dsv
+source;../../build/sicnav_python_example/share/sicnav_python_example/hook/pythonpath_develop.sh

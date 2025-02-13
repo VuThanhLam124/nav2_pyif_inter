@@ -1,0 +1,35 @@
+[0.007s] Invoking command in '/home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller': CMAKE_PREFIX_PATH=/home/ubuntu/nav2_pyif_ws/install/nav2_pyif:/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller:/home/ubuntu/nav2_pyif_ws/install/apf_python_example:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/lib:/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller -- -j16 -l16
+[0.058s] [ 60%] Built target apf_test
+[0.060s] [100%] Built target nav2_pyif_controller
+[0.070s] Invoked command in '/home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/nav2_pyif_ws/install/nav2_pyif:/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller:/home/ubuntu/nav2_pyif_ws/install/apf_python_example:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/lib:/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller -- -j16 -l16
+[0.071s] Invoking command in '/home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller': CMAKE_PREFIX_PATH=/home/ubuntu/nav2_pyif_ws/install/nav2_pyif:/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller:/home/ubuntu/nav2_pyif_ws/install/apf_python_example:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/lib:/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller
+[0.076s] -- Install configuration: "Release"
+[0.077s] -- Execute custom install script
+[0.077s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller//nav2_pyif_controller.xml
+[0.077s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/include/nav2_pyif_controller/nav2_pyif_controller.hpp
+[0.077s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/environment/library_path.sh
+[0.077s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/environment/library_path.dsv
+[0.077s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/ament_index/resource_index/package_run_dependencies/nav2_pyif_controller
+[0.077s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/ament_index/resource_index/parent_prefix_path/nav2_pyif_controller
+[0.077s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/environment/ament_prefix_path.sh
+[0.078s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/environment/ament_prefix_path.dsv
+[0.078s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/environment/path.sh
+[0.078s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/environment/path.dsv
+[0.078s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/local_setup.bash
+[0.078s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/local_setup.sh
+[0.078s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/local_setup.zsh
+[0.078s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/local_setup.dsv
+[0.078s] -- Symlinking: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/package.dsv
+[0.084s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/ament_index/resource_index/packages/nav2_pyif_controller
+[0.084s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_pyif_controller
+[0.084s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.084s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/ament_cmake_export_libraries-extras.cmake
+[0.084s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.084s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/ament_cmake_export_targets-extras.cmake
+[0.084s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/nav2_pyif_controllerConfig.cmake
+[0.084s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/nav2_pyif_controllerConfig-version.cmake
+[0.084s] -- Up-to-date symlink: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/package.xml
+[0.084s] -- Up-to-date: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/lib/libnav2_pyif_controller.so
+[0.085s] -- Up-to-date: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/export_nav2_pyif_controllerExport.cmake
+[0.085s] -- Up-to-date: /home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/export_nav2_pyif_controllerExport-release.cmake
+[0.086s] Invoked command in '/home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/nav2_pyif_ws/install/nav2_pyif:/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller:/home/ubuntu/nav2_pyif_ws/install/apf_python_example:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/nav2_pyif_ws/install/nav2_pyif/lib:/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ubuntu/nav2_pyif_ws/build/nav2_pyif_controller

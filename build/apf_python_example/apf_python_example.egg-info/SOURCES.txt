@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+apf_python_example/__init__.py
+apf_python_example/apf.py
+apf_python_example.egg-info/PKG-INFO
+apf_python_example.egg-info/SOURCES.txt
+apf_python_example.egg-info/dependency_links.txt
+apf_python_example.egg-info/requires.txt
+apf_python_example.egg-info/top_level.txt
+apf_python_example.egg-info/zip-safe
+resource/apf_python_example

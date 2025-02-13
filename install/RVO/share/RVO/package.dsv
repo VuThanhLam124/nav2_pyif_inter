@@ -1,0 +1,6 @@
+source;share/RVO/hook/path.ps1
+source;share/RVO/hook/path.dsv
+source;share/RVO/hook/path.sh
+source;share/RVO/hook/pythonscriptspath.ps1
+source;share/RVO/hook/pythonscriptspath.dsv
+source;share/RVO/hook/pythonscriptspath.sh

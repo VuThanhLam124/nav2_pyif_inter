@@ -1,0 +1,6 @@
+source;share/si_crowd_nav/hook/pythonpath.ps1
+source;share/si_crowd_nav/hook/pythonpath.dsv
+source;share/si_crowd_nav/hook/pythonpath.sh
+source;../../build/si_crowd_nav/share/si_crowd_nav/hook/pythonpath_develop.ps1
+source;../../build/si_crowd_nav/share/si_crowd_nav/hook/pythonpath_develop.dsv
+source;../../build/si_crowd_nav/share/si_crowd_nav/hook/pythonpath_develop.sh

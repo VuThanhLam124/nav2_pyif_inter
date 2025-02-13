@@ -1,0 +1,3 @@
+/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/lib/libnav2_pyif_controller.so
+/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/export_nav2_pyif_controllerExport.cmake
+/home/ubuntu/nav2_pyif_ws/install/nav2_pyif_controller/share/nav2_pyif_controller/cmake/export_nav2_pyif_controllerExport-release.cmake
